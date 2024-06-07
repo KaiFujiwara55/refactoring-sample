@@ -1,0 +1,8 @@
+services:
+  js:
+    container_name: refactoring-sample
+    image: node:20-alpine
+    volumes:
+      - ./src:/src
+    working_dir: /src/js
+    tty: true
